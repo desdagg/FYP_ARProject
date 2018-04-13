@@ -1,0 +1,48 @@
+[
+
+    
+    {
+        "category_name": "Browsing Pois",
+        "samples": [
+            {
+                "name": "Presenting Details",
+                "path": "Presenting_POI_Details/index.html",
+                "requiredFeatures": [
+                    "geo"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            },
+            {
+                "name": "From Local Resource",
+                "path": "ObtainPoiData_FromLocalResource/index.html",
+                "requiredFeatures": [
+                    "geo"
+                ],
+                "startupConfiguration": {
+                    "camera_resolution": "auto",
+                    "camera_position": "back"
+                }
+            },
+            {
+                "required_extensions": [
+                    "application_model_pois",
+                    "geo"
+                ],
+
+                "name": "From Application model",
+                "path": "Application_Model_POI/index.html",
+                "requiredFeatures": [
+                    "geo"
+                ],
+                "startupConfiguration": {
+                    "camera_resolution": "auto",
+                    "camera_position": "back"
+                }
+            }
+           
+        ]
+    }
+]

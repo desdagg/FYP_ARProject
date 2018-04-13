@@ -1,0 +1,54 @@
+[
+
+
+  {
+    "category_name": "Browsing Pois",
+    "samples": [
+      {
+        "name": "Presenting Details",
+        "path": "Presenting_POI_Details/index.html",
+        "requiredFeatures": [
+          "geo"
+        ],
+        "startupConfiguration": {
+          "camera_position": "back",
+          "camera_resolution": "auto"
+        }
+      },
+      {
+        "name": "Adding Radar",
+        "path": "10_BrowsingPois_2_AddingRadar/index.html",
+        "requiredFeatures": [
+          "geo"
+        ],
+        "startupConfiguration": {
+          "camera_position": "back",
+          "camera_resolution": "auto"
+        }
+      },
+      {
+        "name": "Limiting Range",
+        "path": "10_BrowsingPois_3_LimitingRange/index.html",
+        "requiredFeatures": [
+          "geo"
+        ],
+        "startupConfiguration": {
+          "camera_position": "back",
+          "camera_resolution": "auto"
+        }
+      },
+      {
+        "name": "Reloading Content",
+        "path": "10_BrowsingPois_4_ReloadingContent/index.html",
+        "requiredFeatures": [
+          "geo"
+        ],
+        "startupConfiguration": {
+          "camera_position": "back",
+          "camera_resolution": "auto"
+        }
+      }
+
+    ]
+  }
+]
